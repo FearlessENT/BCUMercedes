@@ -1,0 +1,219 @@
+
+
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #363333;
+    
+}
+
+.navbar li {
+    float: left;
+    border-right: 1px solid #bbb;
+    font-family: sans-serif;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 16px 18px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+}
+
+
+
+
+.homeslide img {
+    max-width: 100%;
+    max-height: 10%;
+}
+
+
+
+
+.homebody {
+    background-color: #312e2e;
+}
+
+
+.title {
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+.homelist {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.homelist span {
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 2vw;
+}
+
+
+
+.homelist img {
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+}
+
+.lista {
+    text-decoration: none;
+}
+
+
+
+
+
+.carlist {
+    margin: 0;
+    padding: 0;
+}
+
+.imgbox {
+    display: grid;
+    height: 10%;
+}
+
+
+
+
+
+
+
+
+.listcars {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+.listcars span {
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 1.3vw;
+}
+
+.listcars img{
+    width: 100%;
+    height: auto;
+    max-width: 50%;
+}
+
+
+.listcars table {
+    width: 100%;
+    
+}
+
+.listcars th {
+    width: 100%;
+    padding: 1px;
+    text-align: left;
+    width: 100%;
+    white-space: nowrap;
+    padding-right: 50px;
+}
+
+
+
+
+
+
+
+.contact2 {
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    max-width: 100%;
+    
+}
+
+.contact2 label {
+    height: 10%;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    font-size: 35px;
+    padding-bottom: 20px;
+
+}
+
+.contact2 input {
+    /* height: 10%; */
+    width: 30%; 
+    display: block;
+    margin: 0 auto;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.contact2 textarea {
+    width: 30%;
+    /* height: 50%; */
+    line-height: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+.read_listings {
+    font-family: sans-serif;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5px;
+    max-width: 100%;
+}
+
+.read_listings table {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    margin: 0 auto;
+}
+
+
+.read_listings a:link {
+    padding: 10px 0;
+    color: white;
+}
+
+.read_listings a:visited {
+    color: white;
+}
+
+.read_listings a:hover {
+    color: grey;
+}
+
+.read_listings a {
+    font-family: sans-serif;
+}
